@@ -17,7 +17,7 @@ public class Edge <E>{
 	}
 	public String toString() {
 		if (this.weight >=1)return refDest.data+" ["+this.weight+"], ";
-		else return defDest.data+", ";
+		else return refDest.data+", ";
 	}
 
 }

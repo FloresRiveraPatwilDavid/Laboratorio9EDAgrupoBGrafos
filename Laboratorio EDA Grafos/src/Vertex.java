@@ -2,8 +2,8 @@
 public class Vertex <E>{
 	protected E data;
 	protected ListLinked<Edge<E>> listAdj;
-	public Vertex() {
-		this.data = data;
+	public Vertex(E data1) {
+		this.data = data1;
 		listAdj = new ListLinked<Edge<E>>();
 	}
 	public boolean equals(Object o) {
